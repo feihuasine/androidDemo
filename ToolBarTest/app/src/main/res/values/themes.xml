@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToolBarTest" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_on_primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.ToolBarTest" parent="Base.Theme.ToolBarTest" />
+
+    <style name="FruitActivityTheme" parent="Base.Theme.ToolBarTest">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
